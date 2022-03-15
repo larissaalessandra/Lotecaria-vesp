@@ -4,31 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lotecaria - Simulador de Loteria</title>
+    <title>Jogo do bicho - Simulador de bicho</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Lotecaria</h1>
-        <h3>Simulador de Loteria</h3>
+        <h1>Jogo do bicho</h1>
+        <h3>Simulador de bicho</h3>
     </header>
 
-    <div class="numeros">
-        <input type="number" id="num1" onchange=" getNum(value, 1)">
-        <input type="number" id="num2" onchange=" getNum(value, 2)">
-        <input type="number" id="num3" onchange=" getNum(value, 3)">
-        <input type="number" id="num4" onchange=" getNum(value, 4)">
-        <input type="number" id="num5" onchange=" getNum(value, 5)">
-        <input type="number" id="num6" onchange=" getNum(value, 6)">
+    <div class="churrasco">
+        <input type="number" id="carne1" onchange=" getNum(value, 1)">
+        <input type="number" id="carne2" onchange=" getNum(value, 2)">
+        <input type="number" id="carne3" onchange=" getNum(value, 3)">
+        <input type="number" id="carne4" onchange=" getNum(value, 4)">
+        <input type="number" id="carne5" onchange=" getNum(value, 5)">
+        <input type="number" id="carne6" onchange=" getNum(value, 6)">
     </div>
 
-    <div class="sorteio">
-        <button class="btnsort" onclick="sorteioNum()" >Sortear</button>
-        <p id="numsort"></p>
+    <div class="bicharada">
+        <button class="ximbinha" onclick="Tataco()" >Joga no bixo ai vai</button>
+        <p id="malaco"></p>
     </div>
 
-    <div class="vericacao">
-        <p>Total de acertos foi: <span id="total"></span> </p>
+    <div class="olhada">
+        <p>Total de balacos foi: <span id="teco"></span> </p>
     </div>
 
     <script src="funcoes.js"></script>
