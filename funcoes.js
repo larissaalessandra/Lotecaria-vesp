@@ -2,6 +2,9 @@ var numSort = []
 var numDig  = []
 
 function sorteioNum(){
+    if(numDig.length < 6){
+        alert("Digita tudo ai pô")
+    }else{
     numSort=[]
 
     do{
@@ -15,7 +18,7 @@ function sorteioNum(){
 
     document.getElementById("numsort").innerText = numSort
     verificaAcertos()
-
+    }
 }
 
 
