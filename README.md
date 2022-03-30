@@ -22,7 +22,8 @@ a quantidade de acertos!
 
 | Tela ínicial | Primeira Rodada |
 |------------------|----------------|
-| imagem 1         | imagem 2       |
+| ![tela inicial do site](/img/tela1.png)           | ![tela inicial do site](https://raw.githubusercontent.com/larissaalessandra/Lotecaria-vesp/master/img/tela2.png)     
+  |
 
 
 ### codigo principal 
