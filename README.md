@@ -23,3 +23,20 @@ a quantidade de acertos!
 | Tela ínicial | Primeira Rodada |
 |------------------|----------------|
 | imagem 1         | imagem 2       |
+
+
+### codigo principal 
+
+```
+function verificaAcertos() {
+    let cont = 0
+    numDig.forEach(function (valor, index) {
+        if (numSort.includes(valor)) {
+            cont = cont + 1
+
+        }
+    })
+    document.getElementById("total").innerText = cont
+}
+
+```
